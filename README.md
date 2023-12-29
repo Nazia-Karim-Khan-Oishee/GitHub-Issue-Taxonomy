@@ -1,1 +1,1 @@
-The GitHub Issue Taxonomy automates the categorization of GitHub issues into bugs, features, or questions using advanced natural language processing. It enhances issue management and helps development teams prioritize tasks effectively, improving software development efficiency and user satisfaction.
+##Hello
