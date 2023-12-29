@@ -25,13 +25,13 @@ To implement the model from scratch or explore the code, follow these steps:
 ```bash
 pip install jupyter
 ```
-3.Download BERT base uncased model from Hugging Face.
+3.Download BERT base uncased model from Hugging Face.You can download it from [here](https://huggingface.co/bert-base-uncased).
 
 4.Navigate to the code folder and then the notebook folder. Open the model_training.ipynb file in Jupyter Notebook for the full implementation.
 
 ## Dataset
 
-The dataset is collected from kaggle from [this link](https://www.kaggle.com/datasets/anmolkumar/github-bugs-prediction/data?select=embold_train_extra.json)
+The dataset is collected from kaggle.You can download it from [this link](https://www.kaggle.com/datasets/anmolkumar/github-bugs-prediction/data?select=embold_train_extra.json)
 
 ## Model Assessment
 
