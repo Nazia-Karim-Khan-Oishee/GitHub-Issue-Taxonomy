@@ -13,7 +13,7 @@ To run the prediction using the pre-trained model, execute the following command
 ```bash
 python ImplementationOfModel.py
 ```
-nput a text when prompted, and the model will provide the classification result.
+Input a text when prompted, and the model will provide the classification result.
 
 ## Implementation
 
