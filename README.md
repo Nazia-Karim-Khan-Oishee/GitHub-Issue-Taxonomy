@@ -1,4 +1,4 @@
-# Machine Learning Project - Neural Network for Text Classification
+# Github Issue Taonomy - Multi class text classification using pre trained BERT model.
 
 ## Installation
 
