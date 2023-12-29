@@ -1,4 +1,4 @@
-# Github Issue Taonomy - Multi class text classification using pre trained BERT model.
+# Github Issue Taxonomy - Multi class text classification using pre trained BERT model.
 
 ## Installation
 
