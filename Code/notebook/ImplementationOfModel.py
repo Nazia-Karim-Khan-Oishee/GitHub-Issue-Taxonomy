@@ -1,3 +1,4 @@
+
 import torch
 import torch.nn as nn
 import numpy as np
@@ -60,4 +61,3 @@ while True:
     sample_message = input('Enter the issue text: ')
     if sample_message == 'exit':
         break
-    print(predict_git_category(sample_message, bug_predictor_model))
