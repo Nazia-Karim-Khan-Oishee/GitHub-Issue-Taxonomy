@@ -13,7 +13,7 @@ class config:
     TRAIN_BATCH_SIZE = 8
     VALID_BATCH_SIZE = 8
     EPOCHS = 10
-    DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    DEVICE = torch.device("cpu")
     BERT_PATH = "bert-base-uncased"
     MODEL_PATH = "bert-base-uncased/pytorch_model.bin"
     TRAINING_FILE = "../../Datasets/embold_train_cleaned.json"
@@ -54,10 +54,11 @@ def predict_git_category(sample_message, model):
     
 class_names = [0, 1, 2]
 bug_predictor_model = BugPredictor(len(class_names)).to(config.DEVICE)
-bug_predictor_model.load_state_dict(torch.load('best_model.bin'))
+bug_predictor_model.load_state_dict(torch.load('best_model.bin',torch.device('cpu')))
 
 while True:
     print('Enter "exit" to exit')
     sample_message = input('Enter the issue text: ')
     if sample_message == 'exit':
         break
+    print(predict_git_category(sample_message, bug_predictor_model))
